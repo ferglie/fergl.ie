@@ -6,6 +6,7 @@
   "homepage": "https://fergl.ie",
   "author": "Fergal Moran",
   "scripts": {
+    "lint": "set CI=true&&yarn build",
     "shorten": "netlify-shortener",
     "start": "react-scripts start",
     "build": "react-scripts build",
