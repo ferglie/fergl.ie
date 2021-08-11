@@ -2,17 +2,24 @@
   "name": "fergl.ie",
   "version": "0.1.0",
   "private": true,
+  "baseUrl": "https://fergl.ie",
+  "homepage": "https://fergl.ie",
+  "author": "Fergal Moran",
+  "scripts": {
+    "shorten": "netlify-shortener",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "netlify-shortener": "^1.0.1"
   },
   "eslintConfig": {
     "extends": "react-app"
