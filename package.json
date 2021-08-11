@@ -10,6 +10,7 @@
     "shorten": "netlify-shortener",
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-netlify": "react-scripts build && cp _redirects ./build/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
