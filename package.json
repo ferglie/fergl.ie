@@ -37,6 +37,7 @@
 	"dependencies": {
 		"bson-ext": "^4.0.2",
 		"dotenv": "^10.0.0",
+		"kerberos": "^1.1.7",
 		"mongodb": "^4.2.0",
 		"svelte2tsx": "^0.4.10"
 	}
