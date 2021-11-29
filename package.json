@@ -35,6 +35,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"aws4": "^1.11.0",
 		"bson-ext": "^4.0.2",
 		"dotenv": "^10.0.0",
 		"kerberos": "^1.1.7",
