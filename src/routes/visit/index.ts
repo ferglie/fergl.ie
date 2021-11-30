@@ -21,7 +21,7 @@ export const get = async (req: Request, res: Response) => {
 		return {
 			status: 500,
 			body: {
-				error: 'Error getting visit count'
+				error: `Error getting visit count\n${e}`
 			}
 		};
 	}
@@ -44,7 +44,7 @@ export const post = async (req: Request) => {
 		return {
 			status: 500,
 			body: {
-				error: 'Error saving visit'
+				error: `Error getting visit count\n${e}`
 			}
 		};
 	}
