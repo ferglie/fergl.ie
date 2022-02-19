@@ -2,9 +2,10 @@
 	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
-<div class="w-full lg:max-w-full lg:flex">
+<div class="w-full lg:max-w-full lg:flex p-2">
 	<div class="" title="Otherway">
 		<img
+			class="rounded-lg"
 			src="https://cdn.fergl.ie/public/otherway/woodford/woodford.jpg"
 			alt="Otherway @ Woodford"
 		/>
