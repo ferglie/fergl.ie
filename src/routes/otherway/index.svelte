@@ -1,10 +1,13 @@
 <script>
-  import { MetaTags, JsonLd } from 'svelte-meta-tags';
+	import { MetaTags, JsonLd } from 'svelte-meta-tags';
 </script>
 
 <div class="w-full lg:max-w-full lg:flex">
 	<div class="" title="Otherway">
-		<img src="https://cdn.fergl.ie/public/otherway/woodford/woodford.jpg" alt="Otherway @ Woodford" />
+		<img
+			src="https://cdn.fergl.ie/public/otherway/woodford/woodford.jpg"
+			alt="Otherway @ Woodford"
+		/>
 	</div>
 	<div
 		class="flex flex-col justify-between p-4 leading-normal bg-white rounded-b lg:rounded-b-none lg:rounded-r"
@@ -105,24 +108,25 @@
 	openGraph={{
 		url: 'https://fergl.ie/otherway/',
 		title: 'Radio Otherway @ Woodford',
+		type: 'article',
 		description: 'Radio Otherway Party & Fundraiser @ Woodford Cork @ Woodford Cork',
 		images: [
 			{
 				url: 'https://cdn.fergl.ie/public/otherway/woodford/woodford.jpg',
-				width: 800,
-				height: 600,
-				alt: 'Og Image Alt'
+				width: 940,
+				height: 788,
+				alt: 'Radio Otherway Party'
 			}
 		],
 		site_name: 'Radio Otherway'
 	}}
 	twitter={{
 		handle: '@nooshoes',
-		site: '@site',
+		site: '@nooshoes',
 		cardType: 'summary_large_image',
 		title: 'Radio Otherway @ Woodford',
 		description: 'Radio Otherway Party & Fundraiser @ Woodford Cork @ Woodford Cork.',
-		image: 'Radio Otherway Party & Fundraiser @ Woodford Cork @ Woodford Cork',
+		image: 'https://cdn.fergl.ie/public/otherway/woodford/woodford.jpg',
 		imageAlt: 'Radio Otherway Party'
 	}}
 	facebook={{
