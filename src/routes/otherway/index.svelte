@@ -66,7 +66,7 @@
 				</svg>
 				Lineup
 			</p>
-			<ul class="mb-3 ml-12 text-sm text-gray-700 list-disc">
+			<ul class="mb-3 ml-12 text-sm text-gray-700 list-disc overscroll-contain">
 				<li>Shane Johnson</li>
 				<li>Eddie Kay</li>
 				<li>Bloody G</li>
