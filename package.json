@@ -43,6 +43,7 @@
 		"mongodb": "^4.2.0",
 		"mongodb-client-encryption": "^1.2.7",
 		"snappy": "^7.0.5",
+		"svelte-meta-tags": "^2.3.0",
 		"svelte2tsx": "^0.4.10"
 	}
 }

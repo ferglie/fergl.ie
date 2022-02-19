@@ -2541,6 +2541,11 @@ saslprep@^1.0.3:
   dependencies:
     sparse-bitfield "^3.0.3"
 
+schema-dts@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/schema-dts/-/schema-dts-1.0.0.tgz#60e8a0f2cef5e644c44c843b03d35b37a4423c01"
+  integrity sha512-9t8gnY3RW2CbpuvA0pIpcaHFXkJTeNnWR4uaWI+PiYSfpuEeMw+2Q0Gac6YTnQb1B8TR6/+G71gQWuSE7dq6Zw==
+
 semver@^5.4.1:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
@@ -2781,6 +2786,13 @@ svelte-hmr@^0.14.7:
   version "0.14.7"
   resolved "https://registry.npmjs.org/svelte-hmr/-/svelte-hmr-0.14.7.tgz"
   integrity sha512-pDrzgcWSoMaK6AJkBWkmgIsecW0GChxYZSZieIYfCP0v2oPyx2CYU/zm7TBIcjLVUPP714WxmViE9Thht4etog==
+
+svelte-meta-tags@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/svelte-meta-tags/-/svelte-meta-tags-2.3.0.tgz#2f6e73c3fa238027dad1a369a8593dfe8b3e75c9"
+  integrity sha512-41sk5683xMxQ4yD5oisrFQwAY5wIYu5eFxLicLOYhejujMqD7vxNpNf4QUYyE3HZl/g5g50LnBltdae5AbSKgA==
+  dependencies:
+    schema-dts "1.0.0"
 
 svelte-preprocess@^4.0.0, svelte-preprocess@^4.9.8:
   version "4.9.8"
