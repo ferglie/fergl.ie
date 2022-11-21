@@ -1891,6 +1891,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"emitter-component@npm:^1.1.1":
+  version: 1.1.1
+  resolution: "emitter-component@npm:1.1.1"
+  checksum: 10e907f507a8c16a318e07595119e58b5c3267528d4e3b962ee9b14fd83c97599e7931ccb983ec551a8de8116955c1d6ae7d213c5b0c920b62c02b7cb8d7a4d7
+  languageName: node
+  linkType: hard
+
 "emoji-regex@npm:^8.0.0":
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
@@ -2414,6 +2421,7 @@ __metadata:
     postcss: ^8.4.19
     prettier: ^2.6.2
     prettier-plugin-svelte: ^2.7.0
+    stream: ^0.0.2
     svelte: ^3.44.0
     svelte-check: ^2.7.1
     svelte-preprocess: ^4.10.7
@@ -4010,6 +4018,15 @@ __metadata:
   dependencies:
     minipass: ^3.1.1
   checksum: fb58f5e46b6923ae67b87ad5ef1c5ab6d427a17db0bead84570c2df3cd50b4ceb880ebdba2d60726588272890bae842a744e1ecce5bd2a2a582fccd5068309eb
+  languageName: node
+  linkType: hard
+
+"stream@npm:^0.0.2":
+  version: 0.0.2
+  resolution: "stream@npm:0.0.2"
+  dependencies:
+    emitter-component: ^1.1.1
+  checksum: 43d89e176c282234d452754f9b55a82c74ea68345bf6176af32c4c213801f88df7984c83ec5a735457705dddf4668373edb9f0ec270a7491e1d881631a763978
   languageName: node
   linkType: hard
 

@@ -44,6 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.19"],\
             ["prettier", "npm:2.7.1"],\
             ["prettier-plugin-svelte", "virtual:fdc57879962ef83d574b21529246270a776abb5896f0abfae110256b9d08822b4dff3bd93238d4ea75d06dba54645dac3cb1fe3ebac7fc655d3c4efa279d753d#npm:2.8.1"],\
+            ["stream", "npm:0.0.2"],\
             ["svelte", "npm:3.53.1"],\
             ["svelte-check", "virtual:fdc57879962ef83d574b21529246270a776abb5896f0abfae110256b9d08822b4dff3bd93238d4ea75d06dba54645dac3cb1fe3ebac7fc655d3c4efa279d753d#npm:2.9.2"],\
             ["svelte-preprocess", "virtual:fdc57879962ef83d574b21529246270a776abb5896f0abfae110256b9d08822b4dff3bd93238d4ea75d06dba54645dac3cb1fe3ebac7fc655d3c4efa279d753d#npm:4.10.7"],\
@@ -2292,6 +2293,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["emitter-component", [\
+        ["npm:1.1.1", {\
+          "packageLocation": "./.yarn/cache/emitter-component-npm-1.1.1-e7a14ded4b-10e907f507.zip/node_modules/emitter-component/",\
+          "packageDependencies": [\
+            ["emitter-component", "npm:1.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["emoji-regex", [\
         ["npm:8.0.0", {\
           "packageLocation": "./.yarn/cache/emoji-regex-npm-8.0.0-213764015c-d4c5c39d5a.zip/node_modules/emoji-regex/",\
@@ -2880,6 +2890,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.19"],\
             ["prettier", "npm:2.7.1"],\
             ["prettier-plugin-svelte", "virtual:fdc57879962ef83d574b21529246270a776abb5896f0abfae110256b9d08822b4dff3bd93238d4ea75d06dba54645dac3cb1fe3ebac7fc655d3c4efa279d753d#npm:2.8.1"],\
+            ["stream", "npm:0.0.2"],\
             ["svelte", "npm:3.53.1"],\
             ["svelte-check", "virtual:fdc57879962ef83d574b21529246270a776abb5896f0abfae110256b9d08822b4dff3bd93238d4ea75d06dba54645dac3cb1fe3ebac7fc655d3c4efa279d753d#npm:2.9.2"],\
             ["svelte-preprocess", "virtual:fdc57879962ef83d574b21529246270a776abb5896f0abfae110256b9d08822b4dff3bd93238d4ea75d06dba54645dac3cb1fe3ebac7fc655d3c4efa279d753d#npm:4.10.7"],\
@@ -4735,6 +4746,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["ssri", "npm:9.0.1"],\
             ["minipass", "npm:3.3.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["stream", [\
+        ["npm:0.0.2", {\
+          "packageLocation": "./.yarn/cache/stream-npm-0.0.2-2f332b5d35-43d89e176c.zip/node_modules/stream/",\
+          "packageDependencies": [\
+            ["stream", "npm:0.0.2"],\
+            ["emitter-component", "npm:1.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
