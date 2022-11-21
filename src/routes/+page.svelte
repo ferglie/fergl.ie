@@ -1,10 +1,12 @@
-<script>
+<script lang="ts">
 	import Counter from '$lib/components/Counter.svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
 
 	const releaseTheMagic = () => {
-		document.querySelector('audio').play();
+		document.querySelector('audio')?.play();
 	};
+    export let data: any;
+
 </script>
 
 <div
@@ -13,7 +15,7 @@
 	<header class="p-4"><Navbar /></header>
 	<main class="-mt-8 flex-grow">
 		<div class="flex flex-col items-center justify-center h-screen mx-auto">
-            <header class="-mt-20">
+            <header class="-mt-40">
                 <img alt="Ferglier Gif" src="img/ferglier.gif" />
                 <br />
                 <img alt="Than You Gif" src="img/thanyou.gif" />
@@ -26,10 +28,12 @@
             >
                 🪄 MOAR MAGIC
             </button>
+            <div class="bg-red-300 text-2xl">DATA: {data.count}</div>
+            <div class="bg-red-300 text-2xl">DATA: {JSON.stringify(data)}</div>
 		</div>
 	</main>
 	<footer class="p-4">
-		<div class="absolute bottom-0 left-1 text-gray-100 animate-bounce"><Counter /></div>
+		<div class="absolute bottom-0 left-1 text-gray-100 animate-bounce"><Counter count={data.count} /></div>
 		<div class="absolute bottom-0 right-1 text-gray-100 animate-bounce">
 			<a href="https://github.com/ferglie/fergl.ie" target="_blank" rel="noreferrer"> Built with good codes </a>
 		</div>
