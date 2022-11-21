@@ -1,3 +1,7 @@
 [build]
-  command = "npm run build"
-  publish = "build"
+command = "npm run build"
+publish = "build"
+[[redirects]]
+from = "/github"
+status = 302
+to = "https://github.com/fergalmoran"
