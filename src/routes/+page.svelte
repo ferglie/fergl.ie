@@ -28,8 +28,6 @@
             >
                 🪄 MOAR MAGIC
             </button>
-            <div class="bg-red-300 text-2xl">DATA: {data.count}</div>
-            <div class="bg-red-300 text-2xl">DATA: {JSON.stringify(data)}</div>
 		</div>
 	</main>
 	<footer class="p-4">
