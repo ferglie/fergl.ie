@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@playwright/test", "npm:1.25.0"],\
             ["@sveltejs/adapter-auto", "npm:1.0.0-next.88"],\
+            ["@sveltejs/adapter-netlify", "npm:1.0.0-next.84"],\
             ["@sveltejs/kit", "virtual:fdc57879962ef83d574b21529246270a776abb5896f0abfae110256b9d08822b4dff3bd93238d4ea75d06dba54645dac3cb1fe3ebac7fc655d3c4efa279d753d#npm:1.0.0-next.553"],\
             ["@typescript-eslint/eslint-plugin", "virtual:fdc57879962ef83d574b21529246270a776abb5896f0abfae110256b9d08822b4dff3bd93238d4ea75d06dba54645dac3cb1fe3ebac7fc655d3c4efa279d753d#npm:5.43.0"],\
             ["@typescript-eslint/parser", "virtual:fdc57879962ef83d574b21529246270a776abb5896f0abfae110256b9d08822b4dff3bd93238d4ea75d06dba54645dac3cb1fe3ebac7fc655d3c4efa279d753d#npm:5.43.0"],\
@@ -1067,6 +1068,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@iarna/toml", [\
+        ["npm:2.2.5", {\
+          "packageLocation": "./.yarn/cache/@iarna-toml-npm-2.2.5-6da1399e8e-b63b2b2c4f.zip/node_modules/@iarna/toml/",\
+          "packageDependencies": [\
+            ["@iarna/toml", "npm:2.2.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@jridgewell/resolve-uri", [\
         ["npm:3.1.0", {\
           "packageLocation": "./.yarn/cache/@jridgewell-resolve-uri-npm-3.1.0-6ff2351e61-b5ceaaf9a1.zip/node_modules/@jridgewell/resolve-uri/",\
@@ -1175,6 +1185,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@sveltejs/adapter-auto", "npm:1.0.0-next.88"],\
             ["import-meta-resolve", "npm:2.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@sveltejs/adapter-netlify", [\
+        ["npm:1.0.0-next.84", {\
+          "packageLocation": "./.yarn/cache/@sveltejs-adapter-netlify-npm-1.0.0-next.84-f4b989e147-da956bc908.zip/node_modules/@sveltejs/adapter-netlify/",\
+          "packageDependencies": [\
+            ["@sveltejs/adapter-netlify", "npm:1.0.0-next.84"],\
+            ["@iarna/toml", "npm:2.2.5"],\
+            ["esbuild", "npm:0.15.15"],\
+            ["set-cookie-parser", "npm:2.5.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2844,6 +2866,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fergl.ie", "workspace:."],\
             ["@playwright/test", "npm:1.25.0"],\
             ["@sveltejs/adapter-auto", "npm:1.0.0-next.88"],\
+            ["@sveltejs/adapter-netlify", "npm:1.0.0-next.84"],\
             ["@sveltejs/kit", "virtual:fdc57879962ef83d574b21529246270a776abb5896f0abfae110256b9d08822b4dff3bd93238d4ea75d06dba54645dac3cb1fe3ebac7fc655d3c4efa279d753d#npm:1.0.0-next.553"],\
             ["@typescript-eslint/eslint-plugin", "virtual:fdc57879962ef83d574b21529246270a776abb5896f0abfae110256b9d08822b4dff3bd93238d4ea75d06dba54645dac3cb1fe3ebac7fc655d3c4efa279d753d#npm:5.43.0"],\
             ["@typescript-eslint/parser", "virtual:fdc57879962ef83d574b21529246270a776abb5896f0abfae110256b9d08822b4dff3bd93238d4ea75d06dba54645dac3cb1fe3ebac7fc655d3c4efa279d753d#npm:5.43.0"],\
