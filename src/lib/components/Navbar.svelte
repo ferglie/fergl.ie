@@ -19,7 +19,7 @@
 			>Twitter</a
 		>
 		<a
-			href="https://hachyderm.io/@fergal"
+			href="https://mastodon.fergl.ie/@fergal"
             rel="me"
 			target="_blank"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
