@@ -13,13 +13,14 @@
 			>YouTube</a
 		>
 		<a
-			href="/twitter"
+			href="/mastodon"
+            rel="me"
 			target="_blank"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-			>Twitter</a
+			>Mastodon</a
 		>
 		<a
-			href="https://mastodon.fergl.ie/@fergal"
+			href="/bluesky"
             rel="me"
 			target="_blank"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
