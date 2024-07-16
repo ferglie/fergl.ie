@@ -13,7 +13,7 @@ let createDbConnection: Promise<MongoClient>;
 
 console.log('URI IS', uri);
 if (!uri) {
-	throw new Error('Please add your Mongo URI to .env.local');
+	throw new Error('Please add your Mongo URI to .env');
 }
 
 if (process.env.NODE_ENV === 'development') {
