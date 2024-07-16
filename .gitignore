@@ -11,4 +11,4 @@ vite.config.ts.timestamp-*
 .yarn
 
 # Local Netlify folder
-.netlify
+.netlify/
