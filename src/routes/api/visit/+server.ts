@@ -8,7 +8,7 @@ export const GET = async (req: Request, res: Response) => {
 		await db.collection('visits').insertOne({
 			source: '10.1.1.1'
 		});
-		const count = (await db.collection('visits').countDocuments()) + 16954;
+		const count = (await db.collection('visits').countDocuments());
 
 		return new Response(JSON.stringify({
 			body: {

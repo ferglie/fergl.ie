@@ -1,5 +1,5 @@
 import dotenv from 'dotenv';
-import { MongoClient, MongoClientOptions } from 'mongodb';
+import { MongoClient, type MongoClientOptions } from 'mongodb';
 
 dotenv.config();
 
