@@ -55,7 +55,7 @@
 			target="_blank"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
 		>
-			<i class="fa-solid fa-square mr-1" />
+			<i class="fa-brands fa-bluesky mr-1"></i>
 			Bluesky</a
 		>
 	</div>
