@@ -14,12 +14,9 @@
 	<header class="p-4"><Navbar /></header>
 	<main class="-mt-8 flex-grow">
 		<div class="flex flex-col items-center justify-center h-screen mx-auto">
-			<header class="-mt-40">
+			<div class="-mt-40">
 				<img alt="Ferglier Gif" src="img/awesome-just-awesome.gif" />
-				<br />
-				<img alt="Than You Gif" src="img/thanyou.gif" />
-				<br />
-			</header>
+			</div>
 
 			<button
 				class="bg-red-500 text-white p-6 rounded text-2xl font-bold overflow-hidden shadow-2xl hover:bg-purple-400 press focus:outline-none focus:ring-2 active:bg-pink-600"
