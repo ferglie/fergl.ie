@@ -5,8 +5,7 @@
 	const releaseTheMagic = () => {
 		document.querySelector('audio')?.play();
 	};
-    export let data: any;
-
+	export let data: any;
 </script>
 
 <div
@@ -15,25 +14,29 @@
 	<header class="p-4"><Navbar /></header>
 	<main class="-mt-8 flex-grow">
 		<div class="flex flex-col items-center justify-center h-screen mx-auto">
-            <header class="-mt-40">
-                <img alt="Ferglier Gif" src="img/ferglier.gif" />
-                <br />
-                <img alt="Than You Gif" src="img/thanyou.gif" />
-                <br />
-            </header>
+			<header class="-mt-40">
+				<img alt="Ferglier Gif" src="img/awesome-just-awesome.gif" />
+				<br />
+				<img alt="Than You Gif" src="img/thanyou.gif" />
+				<br />
+			</header>
 
-            <button
-                class="bg-red-500 text-white p-6 rounded text-2xl font-bold overflow-hidden shadow-2xl hover:bg-purple-400 press focus:outline-none focus:ring-2 active:bg-pink-600"
-                on:click={releaseTheMagic}
-            >
-                🪄 MOAR MAGIC
-            </button>
+			<button
+				class="bg-red-500 text-white p-6 rounded text-2xl font-bold overflow-hidden shadow-2xl hover:bg-purple-400 press focus:outline-none focus:ring-2 active:bg-pink-600"
+				on:click={releaseTheMagic}
+			>
+				🪄 MOAR MAGIC
+			</button>
 		</div>
 	</main>
 	<footer class="p-4">
-		<div class="absolute bottom-0 left-1 text-gray-100 animate-bounce"><Counter count={data.count} /></div>
+		<div class="absolute bottom-0 left-1 text-gray-100 animate-bounce">
+			<Counter count={data.count} />
+		</div>
 		<div class="absolute bottom-0 right-1 text-gray-100 animate-bounce">
-			<a href="https://github.com/ferglie/fergl.ie" target="_blank" rel="noreferrer"> Built with good codes </a>
+			<a href="https://github.com/ferglie/fergl.ie" target="_blank" rel="noreferrer">
+				Built with good codes
+			</a>
 		</div>
 	</footer>
 </div>
