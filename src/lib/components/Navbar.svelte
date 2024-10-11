@@ -1,7 +1,7 @@
 <nav class="text-xl">
 	<div class="flex space-x-4 justify-center">
 		<a
-			href="/github"
+			href="https://s.ferg.al/github"
 			target="_blank"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium flex items-center"
 		>
@@ -9,7 +9,7 @@
 			Github</a
 		>
 		<a
-			href="/mixcloud"
+			href="https://s.ferg.al/mixcloud"
 			target="_blank"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
 		>
@@ -17,7 +17,7 @@
 			Mixcloud</a
 		>
 		<a
-			href="/soundcloud"
+			href="https://s.ferg.al/soundcloud"
 			target="_blank"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
 		>
@@ -25,7 +25,7 @@
 			Soundcloud</a
 		>
 		<a
-			href="/mixes"
+			href="https://s.ferg.al/mixes"
 			target="_blank"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
 		>
@@ -33,7 +33,7 @@
 			Music</a
 		>
 		<a
-			href="/youtube"
+			href="https://s.ferg.al/youtube"
 			target="_blank"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium flex items-center"
 		>
@@ -41,7 +41,7 @@
 			YouTube
 		</a>
 		<a
-			href="/mastodon"
+			href="https://s.ferg.al/mastodon"
 			rel="me"
 			target="_blank"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
@@ -50,7 +50,7 @@
 			Mastodon</a
 		>
 		<a
-			href="/bluesky"
+			href="https://s.ferg.al/bluesky"
 			rel="me"
 			target="_blank"
 			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
