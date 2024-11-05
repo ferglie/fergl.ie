@@ -1,61 +1,61 @@
 <nav class="text-xl">
-	<div class="flex space-x-4 justify-center">
+	<div class="flex justify-center space-x-4">
 		<a
 			href="https://s.ferg.al/github"
 			target="_blank"
-			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium flex items-center"
+			class="flex items-center px-3 py-2 font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
 		>
-			<i class="fa-brands fa-github mr-1" />
+			<i class="mr-1 fa-brands fa-github" />
 			Github</a
 		>
 		<a
 			href="https://s.ferg.al/mixcloud"
 			target="_blank"
-			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+			class="px-3 py-2 font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
 		>
-			<i class="fa-brands fa-mixcloud mr-1" />
+			<i class="mr-1 fa-brands fa-mixcloud" />
 			Mixcloud</a
 		>
 		<a
 			href="https://s.ferg.al/soundcloud"
 			target="_blank"
-			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+			class="px-3 py-2 font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
 		>
-			<i class="fa-brands fa-soundcloud mr-1" />
+			<i class="mr-1 fa-brands fa-soundcloud" />
 			Soundcloud</a
 		>
 		<a
 			href="https://s.ferg.al/mixes"
 			target="_blank"
-			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+			class="px-3 py-2 font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
 		>
-			<i class="fa-solid fa-headphones mr-1" />
+			<i class="mr-1 fa-solid fa-headphones" />
 			Music</a
 		>
 		<a
 			href="https://s.ferg.al/youtube"
 			target="_blank"
-			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium flex items-center"
+			class="flex items-center px-3 py-2 font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
 		>
-			<i class="fa-brands fa-youtube mr-1" />
+			<i class="mr-1 fa-brands fa-youtube" />
 			YouTube
 		</a>
 		<a
 			href="https://s.ferg.al/mastodon"
 			rel="me"
 			target="_blank"
-			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+			class="px-3 py-2 font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
 		>
-			<i class="fa-brands fa-mastodon mr-1" />
+			<i class="mr-1 fa-brands fa-mastodon" />
 			Mastodon</a
 		>
 		<a
 			href="https://s.ferg.al/bluesky"
 			rel="me"
 			target="_blank"
-			class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+			class="px-3 py-2 font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
 		>
-			<i class="fa-brands fa-bluesky mr-1"></i>
+			<i class="mr-1 fa-brands fa-bluesky"></i>
 			Bluesky</a
 		>
 	</div>
