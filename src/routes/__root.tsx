@@ -25,7 +25,7 @@ export const Route = createRootRoute({
       },
       {
         rel: 'stylesheet',
-        href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
+        href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css',
       },
     ],
   }),
