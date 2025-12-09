@@ -5,15 +5,10 @@ export const Route = createFileRoute('/api/visit')({
   server: {
     handlers: {
       GET: async ({ request }: { request: Request }) => {
-        console.log('[GET /api/visit] Starting request')
-
         try {
-          console.log('[GET /api/visit] Attempting to connect to MongoDB...')
           const client = await createDbConnection
-          console.log('[GET /api/visit] MongoDB connection established')
 
           const db = client.db()
-          console.log('[GET /api/visit] Database reference obtained')
 
           // Get client IP from request headers
           const forwardedFor = request.headers.get('x-forwarded-for')
