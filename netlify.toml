@@ -4,4 +4,4 @@
 
 [build.environment]
   BUN_VERSION = "1.1.38"
-  NODE_VERSION = "20"
+  NODE_VERSION = "22"

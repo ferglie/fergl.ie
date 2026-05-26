@@ -63,32 +63,36 @@ function Home() {
   }
 
   return (
-    <div 
+    <div
       className="flex flex-col h-screen overflow-hidden bg-gray-700 bg-repeat animate-ltr-linear-infinite"
-      style={{ backgroundImage: "url('/img/pipes.png')", backgroundSize: '400px 400px' }}
+      style={{ backgroundImage: "url('/img/pipes.png')", backgroundSize: '200px 200px' }}
     >
-      <header className="p-4">
+      <header className="p-2 sm:p-4">
         <Navbar />
       </header>
-      <main className="flex-grow -mt-8">
-        <div className="flex flex-col items-center justify-center h-screen mx-auto">
-          <div className="-mt-40">
-            <img alt="Ferglier Gif" src="/img/awesome-just-awesome.gif" />
+      <main className="flex-grow -mt-4 sm:-mt-8">
+        <div className="flex flex-col items-center justify-center h-full px-4">
+          <div className="-mt-20 sm:-mt-40 mb-4 sm:mb-0">
+            <img
+              alt="Ferglier Gif"
+              src="/img/awesome-just-awesome.gif"
+              className="max-w-[250px] sm:max-w-[400px] md:max-w-full w-auto h-auto"
+            />
           </div>
 
           <button
-            className="p-6 overflow-hidden text-2xl font-bold text-white bg-red-500 rounded shadow-2xl hover:bg-purple-400 focus:outline-none focus:ring-2 active:bg-pink-600 transition-colors"
+            className="p-4 sm:p-6 overflow-hidden text-lg sm:text-xl md:text-2xl font-bold text-white bg-red-500 rounded shadow-2xl hover:bg-purple-400 focus:outline-none focus:ring-2 active:bg-pink-600 transition-colors"
             onClick={releaseTheMagic}
           >
             🪄 MOAR MAGIC
           </button>
         </div>
       </main>
-      <footer className="p-4">
-        <div className="absolute bottom-0 text-gray-100 left-1 animate-bounce">
+      <footer className="p-2 sm:p-4 relative">
+        <div className="absolute bottom-1 sm:bottom-2 left-1 sm:left-2 text-xs sm:text-sm md:text-base text-gray-100 animate-bounce">
           <Counter count={data.count} />
         </div>
-        <div className="absolute bottom-0 text-gray-100 right-1 animate-bounce">
+        <div className="absolute bottom-1 sm:bottom-2 right-1 sm:right-2 text-xs sm:text-sm md:text-base text-gray-100 animate-bounce">
           <a
             href="https://github.com/ferglie/fergl.ie"
             target="_blank"
